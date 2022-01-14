@@ -34,5 +34,4 @@ income_band_dynf = glueContext \
 
 print("income_band_dynf count: " + str(income_band_dynf.count()))
 income_band_dynf.printSchema()
-income_band_dynf.explain(True)
 job.commit()
